@@ -1,0 +1,1794 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="SshNet.AuthenticationMethod" Collapsed="true">
+    <Position X="6.25" Y="21.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>AuthenticationMethod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.BaseClient" Collapsed="true">
+    <Position X="21" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAAAIAACAAgQBAAAAAAICAAgEAEAIAAABASAAAAAI=</HashCode>
+      <FileName>BaseClient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SshNet.CommandAsyncResult" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="266.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAABAAEAAAAAAAABAQABAAABAAAAA=</HashCode>
+      <FileName>ChannelAsyncResult.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SshNet.CipherInfo" Collapsed="true">
+    <Position X="265" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CipherInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Extensions" Collapsed="true">
+    <Position X="263.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIGARAAAAAAAAAgAEAAAAAAAAAAAAAABAIEAABAJAAA=</HashCode>
+      <FileName>Common\Extensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.ConnectionInfo" Collapsed="true">
+    <Position X="21" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAsCFAEUAQAAIQoAA0EIAQIkyAIACAYCAgAAAAAgAAA=</HashCode>
+      <FileName>ConnectionInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.ExpectAction" Collapsed="true">
+    <Position X="261.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>ExpectAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.ExpectAsyncResult" Collapsed="true">
+    <Position X="26.25" Y="10.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExpectAsyncResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.ForwardedPort" Collapsed="true">
+    <Position X="11.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABCAAAQAAAAAAAAAAAgBAIAAAIABAAAAAAAA=</HashCode>
+      <FileName>ForwardedPort.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.ForwardedPortDynamic" Collapsed="true">
+    <Position X="8.75" Y="25.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEAgAAAACCACAAAEABAAAACEAAAAAwAAJAAAAAAAAAA=</HashCode>
+      <FileName>ForwardedPortDynamic.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SshNet.ForwardedPortLocal" Collapsed="true">
+    <Position X="11.5" Y="25.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAACCACAAAEABAAAACGCgAACgAAJAAAAAAAAAA=</HashCode>
+      <FileName>ForwardedPortLocal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SshNet.ForwardedPortRemote" Collapsed="true">
+    <Position X="14" Y="25.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EEAAAAEACDAAAAAAAAAAAACACAAACgAAIEAIAAQAAAQ=</HashCode>
+      <FileName>ForwardedPortRemote.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SshNet.HashInfo" Collapsed="true">
+    <Position X="265" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HashInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.KeyboardInteractiveAuthenticationMethod" Collapsed="true">
+    <Position X="10.5" Y="22.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAACDAAAAABEAACAEYAAgAAAAAgIAAAIAAAAAA=</HashCode>
+      <FileName>KeyboardInteractiveAuthenticationMethod.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SshNet.KeyboardInteractiveConnectionInfo" Collapsed="true">
+    <Position X="23.25" Y="25.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAEAAAAAAAAAAAAAAAIAAIAAAAAAA=</HashCode>
+      <FileName>KeyboardInteractiveConnectionInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SshNet.MessageEventArgs&lt;T&gt;" Collapsed="true">
+    <Position X="263.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>MessageEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.NetConfClient" Collapsed="true">
+    <Position X="17.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAACAQgCAAABAAAAAABAAAAAAAgAIAAAAAAIAAAAI=</HashCode>
+      <FileName>NetConfClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.NoneAuthenticationMethod" Collapsed="true">
+    <Position X="1" Y="22.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAADAAAAABEAAAAAYAAgAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>NoneAuthenticationMethod.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SshNet.PasswordAuthenticationMethod" Collapsed="true">
+    <Position X="4" Y="22.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAgAAACDAAAAABEAACAEYAAgAAAAAgAAAAIAAAAAA=</HashCode>
+      <FileName>PasswordAuthenticationMethod.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SshNet.PasswordConnectionInfo" Collapsed="true">
+    <Position X="17.75" Y="25.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAEAAAACAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PasswordConnectionInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SshNet.PrivateKeyAuthenticationMethod" Collapsed="true">
+    <Position X="7.25" Y="22.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAADAAAAABUAACAAYAAgAAAAAAAAAAIACAAAA=</HashCode>
+      <FileName>PrivateKeyAuthenticationMethod.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SshNet.PrivateKeyConnectionInfo" Collapsed="true">
+    <Position X="20.5" Y="25.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAEAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>PrivateKeyConnectionInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SshNet.PrivateKeyFile" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="268.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAIAAAAACAAACAAAEAAAAAAAAAAAACAgg=</HashCode>
+      <FileName>PrivateKeyFile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SshNet.ScpClient" Collapsed="true">
+    <Position X="20" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAqgAoKAABAAACAAAAAwBAAACAUEDAAFAAIAAAAA=</HashCode>
+      <FileName>ScpClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Session" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="266.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>jqSa6cpUWmAcFELaGagEiYwpIW/UEoglhqOG7rEAUh8=</HashCode>
+      <FileName>Session.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SshNet.SftpClient" Collapsed="true">
+    <Position X="22.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACBQEKQCiCgAOABICCGUAAEEABVgQNMOZAEiAAUSQSo=</HashCode>
+      <FileName>SftpClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Shell" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="268.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AECAAQAQGCKEAACAAAQAAAkCChLAAACkIAAAQAAAAAQ=</HashCode>
+      <FileName>Shell.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SshNet.ShellStream" Collapsed="true">
+    <Position X="261.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEDAAAAACCAAQAAoGIBAAAFiIgCIADAggAAhQBEIACA=</HashCode>
+      <FileName>ShellStream.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.SshClient" Collapsed="true">
+    <Position X="24.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAIAgCAAAAAAIEAEAAABAAAIAAQAACAAAAAAAQI=</HashCode>
+      <FileName>SshClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.SshCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="263.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUCAsAYBCCAAAQQCAAQAkAWCIgASIAAwAAAAAAQgAAA=</HashCode>
+      <FileName>SshCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SshNet.Channels.Channel" Collapsed="true">
+    <Position X="3.25" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IwhIAAMACrABXQDWBCCCgADSIgRIEMUlUALAAAGAQAg=</HashCode>
+      <FileName>Channels\Channel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SshNet.Channels.ChannelDirectTcpip" Collapsed="true">
+    <Position X="0.75" Y="25.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAKACCAAYAAGAAACAAAAAAgAAAAASCIAQACAAAA=</HashCode>
+      <FileName>Channels\ChannelDirectTcpip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Channels.ChannelForwardedTcpip" Collapsed="true">
+    <Position X="3.25" Y="25.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAACAAQAAAABAAAAAAAAAAAAAASAAAQACAAAA=</HashCode>
+      <FileName>Channels\ChannelForwardedTcpip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Channels.ChannelSession" Collapsed="true">
+    <Position X="6" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAoIACAQbACCEAAAAAJAAQACACAAAgICEACwBAE=</HashCode>
+      <FileName>Channels\ChannelSession.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Common.ASCIIEncoding" Collapsed="true">
+    <Position X="259.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAQAAAAAAAEAAAAgAAAAARCAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\ASCIIEncoding.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Common.AsyncResult" Collapsed="true">
+    <Position X="26.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAIAAQAAABAAAAAgEKAABAAAALAQAAAUAAAAAAA=</HashCode>
+      <FileName>Common\AsyncResult.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SshNet.Common.AsyncResult&lt;TResult&gt;" Collapsed="true">
+    <Position X="26" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABACAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Common\AsyncResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Common.AuthenticationBannerEventArgs" Collapsed="true">
+    <Position X="14.75" Y="23" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\AuthenticationBannerEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Common.AuthenticationEventArgs" Collapsed="true">
+    <Position X="18.75" Y="21.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\AuthenticationEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Common.AuthenticationPasswordChangeEventArgs" Collapsed="true">
+    <Position X="18" Y="23" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\AuthenticationPasswordChangeEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Common.AuthenticationPrompt" Collapsed="true">
+    <Position X="261.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAABAAAAAAAAAAAAQAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\AuthenticationPrompt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Common.AuthenticationPromptEventArgs" Collapsed="true">
+    <Position X="21.75" Y="23" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Common\AuthenticationPromptEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Common.ChannelDataEventArgs" Collapsed="true">
+    <Position X="8.5" Y="29" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAQAAA=</HashCode>
+      <FileName>Common\ChannelDataEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Common.ChannelEventArgs" Collapsed="true">
+    <Position X="7.25" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\ChannelEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Common.ChannelOpenFailedEventArgs" Collapsed="true">
+    <Position X="5.5" Y="29" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\ChannelOpenFailedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Common.ChannelRequestEventArgs" Collapsed="true">
+    <Position X="263.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Common\ChannelRequestEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Common.DerData" Collapsed="true">
+    <Position X="268.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAAAACBABQAAAABIEAAQAAQQEEEMAAAACAIAEAAAA=</HashCode>
+      <FileName>Common\DerData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Common.ExceptionEventArgs" Collapsed="true">
+    <Position X="259.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Common\ExceptionEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Common.HostKeyEventArgs" Collapsed="true">
+    <Position X="268.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAIAAgAAAAAAAAAgAAAAAg=</HashCode>
+      <FileName>Common\HostKeyEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Common.NetConfServerException" Collapsed="true">
+    <Position X="7.25" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\NetConfServerException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Common.PipeStream" Collapsed="true">
+    <Position X="265" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAggAAAQAAgGQAIAABgDAEAAAAAAAAAAAEIACA=</HashCode>
+      <FileName>Common\PipeStream.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Common.PortForwardEventArgs" Collapsed="true">
+    <Position X="266.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Common\PortForwardEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Common.ProxyException" Collapsed="true">
+    <Position X="16.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\ProxyException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Common.ScpDownloadEventArgs" Collapsed="true">
+    <Position X="261.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAwAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\ScpDownloadEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Common.ScpException" Collapsed="true">
+    <Position X="19" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\ScpException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Common.ScpUploadEventArgs" Collapsed="true">
+    <Position X="263.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\ScpUploadEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Common.SemaphoreLight" Collapsed="true">
+    <Position X="265" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAABAgAAQ=</HashCode>
+      <FileName>Common\SemaphoreLight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Common.SftpPathNotFoundException" Collapsed="true">
+    <Position X="21.25" Y="6" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\SftpPathNotFoundException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Common.SftpPermissionDeniedException" Collapsed="true">
+    <Position X="24.25" Y="6" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\SftpPermissionDeniedException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Common.ShellDataEventArgs" Collapsed="true">
+    <Position X="259.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAABAAA=</HashCode>
+      <FileName>Common\ShellDataEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Common.SshAuthenticationException" Collapsed="true">
+    <Position X="1.5" Y="6" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\SshAuthenticationException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Common.SshConnectionException" Collapsed="true">
+    <Position X="4.5" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\SshConnectionException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Common.SshData" Collapsed="true">
+    <Position X="135" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAgAQAhAAQAKgAAAAAAQAQACAAQUAQQEARIFHAQQA=</HashCode>
+      <FileName>Common\SshData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Common.SshException" Collapsed="true">
+    <Position X="13.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\SshException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Common.SshOperationTimeoutException" Collapsed="true">
+    <Position X="10" Y="6" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\SshOperationTimeoutException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Common.SshPassPhraseNullOrEmptyException" Collapsed="true">
+    <Position X="13.25" Y="6" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\SshPassPhraseNullOrEmptyException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Compression.Compressor" Collapsed="true">
+    <Position X="2.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAADAAAQAAEDCAAACAAAAAAAAAAAADAAAAAAA=</HashCode>
+      <FileName>Compression\Compressor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SshNet.Compression.Zlib" Collapsed="true">
+    <Position X="1.5" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Compression\Zlib.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Compression.ZlibOpenSsh" Collapsed="true">
+    <Position X="3.75" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAgAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Compression\ZlibOpenSsh.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Compression.ZlibStream" Collapsed="true">
+    <Position X="265" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Compression\ZlibStream.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Authentication.BannerMessage" Collapsed="true">
+    <Position X="206.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAQAAAAAAAAAAAQAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Messages\Authentication\BannerMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Authentication.FailureMessage" Collapsed="true">
+    <Position X="214.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAIAAgAAA=</HashCode>
+      <FileName>Messages\Authentication\FailureMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Authentication.InformationRequestMessage" Collapsed="true">
+    <Position X="222.75" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAQAAAAAAAAAAQQAAAIAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Messages\Authentication\InformationRequestMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Authentication.InformationResponseMessage" Collapsed="true">
+    <Position X="141.5" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Authentication\InformationResponseMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Authentication.PasswordChangeRequiredMessage" Collapsed="true">
+    <Position X="146.75" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAQAAAAAAAAAAAQAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Messages\Authentication\PasswordChangeRequiredMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Authentication.PublicKeyMessage" Collapsed="true">
+    <Position X="152.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAAAAQAEAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Authentication\PublicKeyMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Authentication.RequestMessage" Collapsed="true">
+    <Position X="165.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAQAAAAAQAAAAAAAAAAACAAAABAA=</HashCode>
+      <FileName>Messages\Authentication\RequestMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Authentication.RequestMessageHost" Collapsed="true">
+    <Position X="159.75" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAABAAAAAAAAAAAAAAAAAQAAQAAAAAAAACAAAgAAE=</HashCode>
+      <FileName>Messages\Authentication\RequestMessageHost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Authentication.RequestMessageKeyboardInteractive" Collapsed="true">
+    <Position X="162.25" Y="4.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACEAAAAAAAAAAAAAQAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Messages\Authentication\RequestMessageKeyboardInteractive.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Authentication.RequestMessageNone" Collapsed="true">
+    <Position X="165.75" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Messages\Authentication\RequestMessageNone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Authentication.RequestMessagePassword" Collapsed="true">
+    <Position X="168.25" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAQAAAAAAACAAACAAAAAAA=</HashCode>
+      <FileName>Messages\Authentication\RequestMessagePassword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Authentication.RequestMessagePublicKey" Collapsed="true">
+    <Position X="171" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAQAEAAACAAAAAAE=</HashCode>
+      <FileName>Messages\Authentication\RequestMessagePublicKey.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Authentication.SuccessMessage" Collapsed="true">
+    <Position X="188.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Authentication\SuccessMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Connection.ChannelCloseMessage" Collapsed="true">
+    <Position X="237.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Connection\ChannelCloseMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Connection.ChannelDataMessage" Collapsed="true">
+    <Position X="246" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Connection\ChannelDataMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Connection.ChannelEofMessage" Collapsed="true">
+    <Position X="248.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Connection\ChannelEofMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Connection.ChannelExtendedDataMessage" Collapsed="true">
+    <Position X="251" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAAAABAAAAAAAAAQAAA=</HashCode>
+      <FileName>Messages\Connection\ChannelExtendedDataMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Connection.ChannelFailureMessage" Collapsed="true">
+    <Position X="254" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Connection\ChannelFailureMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Connection.ChannelMessage" Collapsed="true">
+    <Position X="240" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAQAAAEAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Connection\ChannelMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Connection.ChannelOpenInfo" Collapsed="true">
+    <Position X="17" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQQAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Connection\ChannelOpen\ChannelOpenInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Connection.ChannelOpenMessage" Collapsed="true">
+    <Position X="225.75" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABQSAAAAAAAAAAQAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Messages\Connection\ChannelOpen\ChannelOpenMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Connection.DirectTcpipChannelInfo" Collapsed="true">
+    <Position X="12.75" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQQAAAAAAAAAAQBAAQAAAQAAAAAAAAAEg=</HashCode>
+      <FileName>Messages\Connection\ChannelOpen\DirectTcpipChannelInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Connection.ForwardedTcpipChannelInfo" Collapsed="true">
+    <Position X="15.5" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQYAAAAAAAAAAQBgAAAAAAAAAAAAAAAEg=</HashCode>
+      <FileName>Messages\Connection\ChannelOpen\ForwardedTcpipChannelInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Connection.SessionChannelOpenInfo" Collapsed="true">
+    <Position X="18.5" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Messages\Connection\ChannelOpen\SessionChannelOpenInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Connection.X11ChannelOpenInfo" Collapsed="true">
+    <Position X="21.25" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQQAAAAAAAAAAQBAAAAAAAAAAAAAAAAEg=</HashCode>
+      <FileName>Messages\Connection\ChannelOpen\X11ChannelOpenInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Connection.ChannelOpenConfirmationMessage" Collapsed="true">
+    <Position X="228.25" Y="4.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABQCAAQAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Connection\ChannelOpenConfirmationMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Connection.ChannelOpenFailureMessage" Collapsed="true">
+    <Position X="231.75" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAwAAAAAAAAAAQQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Connection\ChannelOpenFailureMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Connection.BreakRequestInfo" Collapsed="true">
+    <Position X="47.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAACAAAAAAAQAAAAAAAAAgAAAAAAAEA=</HashCode>
+      <FileName>Messages\Connection\ChannelRequest\BreakRequestInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Connection.ChannelRequestMessage" Collapsed="true">
+    <Position X="240" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAEAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Messages\Connection\ChannelRequest\ChannelRequestMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Connection.EndOfWriteRequestInfo" Collapsed="true">
+    <Position X="49.5" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAEA=</HashCode>
+      <FileName>Messages\Connection\ChannelRequest\EndOfWriteRequestInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Connection.EnvironmentVariableRequestInfo" Collapsed="true">
+    <Position X="52.25" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAEEAAAAQAAAAAAAAAgAAAAAAAEA=</HashCode>
+      <FileName>Messages\Connection\ChannelRequest\EnvironmentVariableRequestInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Connection.ExecRequestInfo" Collapsed="true">
+    <Position X="55.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAABAAQgAAAAAAAAgAAAAAAAEA=</HashCode>
+      <FileName>Messages\Connection\ChannelRequest\ExecRequestInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Connection.ExitSignalRequestInfo" Collapsed="true">
+    <Position X="57.75" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AYAAAAEACAAQAAAAAAAAAAAQAAAAAAAAAgAAAAAAAEA=</HashCode>
+      <FileName>Messages\Connection\ChannelRequest\ExitSignalRequestInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Connection.ExitStatusRequestInfo" Collapsed="true">
+    <Position X="60.25" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAQAAAAAAAAAAAQAAAAAAAAAgAAAAAAAEA=</HashCode>
+      <FileName>Messages\Connection\ChannelRequest\ExitStatusRequestInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Connection.KeepAliveRequestInfo" Collapsed="true">
+    <Position X="26" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAEA=</HashCode>
+      <FileName>Messages\Connection\ChannelRequest\KeepAliveRequestInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Connection.PseudoTerminalRequestInfo" Collapsed="true">
+    <Position X="28.5" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAABAAAAEAIAAQAAAAQAAAAAAAAAgAAAAgAAEA=</HashCode>
+      <FileName>Messages\Connection\ChannelRequest\PseudoTerminalInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Connection.RequestInfo" Collapsed="true">
+    <Position X="43.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAgAAAQAAAAA=</HashCode>
+      <FileName>Messages\Connection\ChannelRequest\RequestInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Connection.ShellRequestInfo" Collapsed="true">
+    <Position X="31.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAEA=</HashCode>
+      <FileName>Messages\Connection\ChannelRequest\ShellRequestInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Connection.SignalRequestInfo" Collapsed="true">
+    <Position X="33.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAgAAAAAAAEA=</HashCode>
+      <FileName>Messages\Connection\ChannelRequest\SignalRequestInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Connection.SubsystemRequestInfo" Collapsed="true">
+    <Position X="36" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAgAAAAAAgAAAAAAAEA=</HashCode>
+      <FileName>Messages\Connection\ChannelRequest\SubsystemRequestInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Connection.WindowChangeRequestInfo" Collapsed="true">
+    <Position X="38.75" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAQAEAAAAAAAEAQAAAAAAAAAgAAAAgAAEA=</HashCode>
+      <FileName>Messages\Connection\ChannelRequest\WindowChangeRequestInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Connection.X11ForwardingRequestInfo" Collapsed="true">
+    <Position X="41.75" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIwAAAAABAAQAAQAAAAAAAAAgAAAAAAAEA=</HashCode>
+      <FileName>Messages\Connection\ChannelRequest\X11ForwardingRequestInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Connection.XonXoffRequestInfo" Collapsed="true">
+    <Position X="44.75" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAgACAAAAAEA=</HashCode>
+      <FileName>Messages\Connection\ChannelRequest\XonXoffRequestInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Connection.ChannelSuccessMessage" Collapsed="true">
+    <Position X="234.75" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Connection\ChannelSuccessMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Connection.ChannelWindowAdjustMessage" Collapsed="true">
+    <Position X="242.75" Y="4.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Connection\ChannelWindowAdjustMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Connection.GlobalRequestMessage" Collapsed="true">
+    <Position X="197.75" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAQAAAAAAAAAAAQAAAAAAAEAgAAAQAAAAA=</HashCode>
+      <FileName>Messages\Connection\GlobalRequestMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Connection.RequestFailureMessage" Collapsed="true">
+    <Position X="208.75" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Connection\RequestFailureMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Connection.RequestSuccessMessage" Collapsed="true">
+    <Position X="216.75" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Connection\RequestSuccessMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Message" Collapsed="true">
+    <Position X="199.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAIAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Message.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.MessageAttribute" Collapsed="true">
+    <Position X="261.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\MessageAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Transport.DebugMessage" Collapsed="true">
+    <Position X="154.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAACAAQAAAAAAAAAAAQAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Messages\Transport\DebugMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Transport.DisconnectMessage" Collapsed="true">
+    <Position X="173.75" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAwAAAAAAAAAAQQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Transport\DisconnectMessage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SshNet.Messages.Transport.IgnoreMessage" Collapsed="true">
+    <Position X="179" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Transport\IgnoreMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Transport.KeyExchangeDhGroupExchangeGroup" Collapsed="true">
+    <Position X="181.25" Y="3.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQgAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Messages\Transport\KeyExchangeDhGroupExchangeGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Transport.KeyExchangeDhGroupExchangeInit" Collapsed="true">
+    <Position X="184.75" Y="3.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Messages\Transport\KeyExchangeDhGroupExchangeInit.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SshNet.Messages.Transport.KeyExchangeDhGroupExchangeReply" Collapsed="true">
+    <Position X="190.5" Y="3.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAEAAAAAk=</HashCode>
+      <FileName>Messages\Transport\KeyExchangeDhGroupExchangeReply.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Transport.KeyExchangeDhGroupExchangeRequest" Collapsed="true">
+    <Position X="194" Y="3.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>gAAQAACAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Transport\KeyExchangeDhGroupExchangeRequest.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SshNet.Messages.Transport.KeyExchangeDhInitMessage" Collapsed="true">
+    <Position X="200.5" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Messages\Transport\KeyExchangeDhInitMessage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SshNet.Messages.Transport.KeyExchangeDhReplyMessage" Collapsed="true">
+    <Position X="203.5" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAEAAAAAk=</HashCode>
+      <FileName>Messages\Transport\KeyExchangeDhReplyMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Transport.KeyExchangeEcdhInitMessage" Collapsed="true">
+    <Position X="211.5" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQQAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Transport\KeyExchangeEcdhInitMessage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SshNet.Messages.Transport.KeyExchangeEcdhReplyMessage" Collapsed="true">
+    <Position X="219.5" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAABE=</HashCode>
+      <FileName>Messages\Transport\KeyExchangeEcdhReplyMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Transport.KeyExchangeInitMessage" Collapsed="true">
+    <Position X="256.75" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAIBAAAAkQAAgAACAIACAQAAIAABAAAAEEAAAAAAA=</HashCode>
+      <FileName>Messages\Transport\KeyExchangeInitMessage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SshNet.Messages.Transport.NewKeysMessage" Collapsed="true">
+    <Position X="144.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Transport\NewKeysMessage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SshNet.Messages.Transport.ServiceAcceptMessage" Collapsed="true">
+    <Position X="150" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Messages\Transport\ServiceAcceptMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Transport.ServiceRequestMessage" Collapsed="true">
+    <Position X="157" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Messages\Transport\ServiceRequestMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Messages.Transport.UnimplementedMessage" Collapsed="true">
+    <Position X="176.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Transport\UnimplementedMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.NetConf.NetConfSession" Collapsed="true">
+    <Position X="7.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAAAAQBCKBABAAAQAAAAAAAAAAABABAAAAAIAAAAA=</HashCode>
+      <FileName>Netconf\NetConfSession.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.Algorithm" Collapsed="true">
+    <Position X="12.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\Algorithm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.CertificateHostAlgorithm" Collapsed="true">
+    <Position X="28.75" Y="17.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\CertificateHostAlgorithm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.DsaKey" Collapsed="true">
+    <Position X="0.5" Y="28.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAACAAAAAAQAAAAACAAEAAAAAAAAAACABgYAA=</HashCode>
+      <FileName>Security\Cryptography\DsaKey.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SshNet.Security.Key" Collapsed="true">
+    <Position X="1.75" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAYAAAAAAAABAAQAAAAAAAAEAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Security\Cryptography\Key.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.RsaKey" Collapsed="true">
+    <Position X="2.75" Y="28.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAACAAAAAgQAAAAACUAEAAAAAAEAAADABwQAA=</HashCode>
+      <FileName>Security\Cryptography\RsaKey.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SshNet.Security.HostAlgorithm" Collapsed="true">
+    <Position X="28" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAABAAAAAAAAQAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\HostAlgorithm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.KeyExchange" Collapsed="true">
+    <Position X="14.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABABAAABqCJAEQAAACAAAAECAIAAUgAAIADAgAIAAAg=</HashCode>
+      <FileName>Security\KeyExchange.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SshNet.Security.KeyExchangeDiffieHellman" Collapsed="true">
+    <Position X="16.5" Y="17.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QAAAAEAAoCAAAAAAACQAAAAEABAAABABAAAAAGAAAAA=</HashCode>
+      <FileName>Security\KeyExchangeDiffieHellman.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.KeyExchangeDiffieHellmanGroup14Sha1" Collapsed="true">
+    <Position X="14" Y="20.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\KeyExchangeDiffieHellmanGroup14Sha1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.KeyExchangeDiffieHellmanGroup1Sha1" Collapsed="true">
+    <Position X="17.75" Y="20.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\KeyExchangeDiffieHellmanGroup1Sha1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.KeyExchangeDiffieHellmanGroupExchangeSha1" Collapsed="true">
+    <Position X="21.5" Y="18.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABACAAAAAAAAACAAQAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Security\KeyExchangeDiffieHellmanGroupExchangeSha1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.KeyExchangeDiffieHellmanGroupExchangeSha256" Collapsed="true">
+    <Position X="9.75" Y="18.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABACIAAAAAAAACAAQAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Security\KeyExchangeDiffieHellmanGroupExchangeSha256.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.KeyExchangeDiffieHellmanGroupSha1" Collapsed="true">
+    <Position X="16.25" Y="18.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABACQAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Security\KeyExchangeDiffieHellmanGroupSha1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.KeyExchangeEllipticCurveDiffieHellman" Collapsed="true">
+    <Position X="6" Y="17.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>QAAAAEABgCAAAAAAACACAAQEAAAAABAEAAAAAGAAAAA=</HashCode>
+      <FileName>Security\KeyExchangeEllipticCurveDiffieHellman.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.KeyHostAlgorithm" Collapsed="true">
+    <Position X="26.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAABQAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\KeyHostAlgorithm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.Cryptography.AsymmetricCipher" Collapsed="true">
+    <Position X="1.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\Cryptography\AsymmetricCipher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.Cryptography.BlockCipher" Collapsed="true">
+    <Position X="11.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQCAAAAAAAAAAAAQAgAAAAAAAAAEAAAAEAAAACAAAAA=</HashCode>
+      <FileName>Security\Cryptography\BlockCipher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.Cryptography.Cipher" Collapsed="true">
+    <Position X="9" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQCAAAAABBAAAAQQAAAAAAAAAAABCAAAAAAAAACAIAA=</HashCode>
+      <FileName>Security\Cryptography\Cipher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.Cryptography.CipherDigitalSignature" Collapsed="true">
+    <Position X="25.5" Y="21.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAIAARAACAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Security\Cryptography\CipherDigitalSignature.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.Cryptography.DigitalSignature" Collapsed="true">
+    <Position X="27" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\Cryptography\DigitalSignature.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.Cryptography.DsaDigitalSignature" Collapsed="true">
+    <Position X="28" Y="21.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAARAAAACAAACAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\Cryptography\DsaDigitalSignature.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SshNet.Security.Cryptography.MD5Hash" Collapsed="true">
+    <Position X="259.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAQACBAiAABCAQAAoACAQAEAAABAgAAAAAAgWMAnIAA=</HashCode>
+      <FileName>Security\Cryptography\Hashes\MD5Hash.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.Cryptography.RIPEMD160Hash" Collapsed="true">
+    <Position X="259.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAQCGAAiAABDAQAAoAAAQAEEAAAAwEgCAAAASAAnQAA=</HashCode>
+      <FileName>Security\Cryptography\Hashes\RIPEMD160Hash.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.Cryptography.SHA1Hash" Collapsed="true">
+    <Position X="265" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>0AQACAAmAABCAQAAoAACQAEAAAAByAAgAIAAWEAnAAA=</HashCode>
+      <FileName>Security\Cryptography\Hashes\SHA1Hash.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.Cryptography.SHA256Hash" Collapsed="true">
+    <Position X="266.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAQAKAYiAABDAQAAoAAAQkEAAAAAwAAgAAAAQIA3QgA=</HashCode>
+      <FileName>Security\Cryptography\Hashes\SHA256Hash.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.Cryptography.SHA2HashBase" Collapsed="true">
+    <Position X="1.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UEQACAQiDBADAQAAIAYAAgEAABABgAAggAAAQIAwQgg=</HashCode>
+      <FileName>Security\Cryptography\Hashes\SHA2HashBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.Cryptography.SHA384Hash" Collapsed="true">
+    <Position X="2.75" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAQAAgAAAQAAAAAAAQAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Security\Cryptography\Hashes\SHA384Hash.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.Cryptography.SHA512Hash" Collapsed="true">
+    <Position X="0.5" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAQAAgAAAQAAAAAAAQAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Security\Cryptography\Hashes\SHA512Hash.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.Cryptography.HMac&lt;T&gt;" Collapsed="true">
+    <Position X="266.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAACBCAQQAAAAAAAAAAAAAEABAAAAAACECAAA=</HashCode>
+      <FileName>Security\Cryptography\HMac.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.Cryptography.RsaDigitalSignature" Collapsed="true">
+    <Position X="25.5" Y="23.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACIAAAAAAAAAAACAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\Cryptography\RsaDigitalSignature.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SshNet.Security.Cryptography.StreamCipher" Collapsed="true">
+    <Position X="3.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\Cryptography\StreamCipher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.Cryptography.SymmetricCipher" Collapsed="true">
+    <Position X="10.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQBAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Security\Cryptography\SymmetricCipher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.Cryptography.Ciphers.AesCipher" Collapsed="true">
+    <Position X="5.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJQgCAAAAABAAgBAAAEEIQAIBAgiUAFAgAQAAmASAI=</HashCode>
+      <FileName>Security\Cryptography\Ciphers\AesCipher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.Cryptography.Ciphers.Arc4Cipher" Collapsed="true">
+    <Position X="3.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQDAAAAIAAQABAARAgAAAAAAAAAAAAAABAAAAAEAAAQ=</HashCode>
+      <FileName>Security\Cryptography\Ciphers\Arc4Cipher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.Cryptography.Ciphers.BlowfishCipher" Collapsed="true">
+    <Position X="8" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CABAAIAAAAAAAAABAAAAABAAgAEAAAAABAAAEAEAABI=</HashCode>
+      <FileName>Security\Cryptography\Ciphers\BlowfishCipher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.Cryptography.Ciphers.CastCipher" Collapsed="true">
+    <Position X="10.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABiQhAAAAAAAAABAACBAAAEAABAAAAGQQAgAAECIAI=</HashCode>
+      <FileName>Security\Cryptography\Ciphers\CastCipher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.Cryptography.Ciphers.CipherMode" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAEAgCAAEAAAA=</HashCode>
+      <FileName>Security\Cryptography\Ciphers\CipherMode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.Cryptography.Ciphers.CipherPadding" Collapsed="true">
+    <Position X="15.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\Cryptography\Ciphers\CipherPadding.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.Cryptography.Ciphers.DesCipher" Collapsed="true">
+    <Position X="12.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAABAAAAAAAAAJAQIQAAAAIAAAESCAA=</HashCode>
+      <FileName>Security\Cryptography\Ciphers\DesCipher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.Cryptography.Ciphers.RsaCipher" Collapsed="true">
+    <Position X="1.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAQAACAAAQAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Security\Cryptography\Ciphers\RsaCipher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.Cryptography.Ciphers.SerpentCipher" Collapsed="true">
+    <Position X="14.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAIIAgAAAABAIBAAgAAAAAAAAAAAAgAAAFAIIQ=</HashCode>
+      <FileName>Security\Cryptography\Ciphers\SerpentCipher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.Cryptography.Ciphers.TripleDesCipher" Collapsed="true">
+    <Position X="12.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAQAAAAIAAAEACAA=</HashCode>
+      <FileName>Security\Cryptography\Ciphers\TripleDesCipher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.Cryptography.Ciphers.TwofishCipher" Collapsed="true">
+    <Position X="17" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABC0AAQAAABISgBAACCAHgQAAAhAoBvAAAgAQdiAYA=</HashCode>
+      <FileName>Security\Cryptography\Ciphers\TwofishCipher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.Cryptography.Ciphers.Modes.CbcCipherMode" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Security\Cryptography\Ciphers\Modes\CbcCipherMode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.Cryptography.Ciphers.Modes.CfbCipherMode" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAABAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Security\Cryptography\Ciphers\Modes\CfbCipherMode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.Cryptography.Ciphers.Modes.CtrCipherMode" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAABAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Security\Cryptography\Ciphers\Modes\CtrCipherMode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.Cryptography.Ciphers.Modes.OfbCipherMode" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAABAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Security\Cryptography\Ciphers\Modes\OfbCipherMode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.Cryptography.Ciphers.Paddings.PKCS5Padding" Collapsed="true">
+    <Position X="14.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\Cryptography\Ciphers\Paddings\PKCS5Padding.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Security.Cryptography.Ciphers.Paddings.PKCS7Padding" Collapsed="true">
+    <Position X="16.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\Cryptography\Ciphers\Paddings\PKCS7Padding.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.SftpDataMessage" Collapsed="true">
+    <Position X="246" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\SftpDataMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.SftpDownloadAsyncResult" Collapsed="true">
+    <Position X="31.75" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Sftp\SftpDownloadAsyncResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.SftpFile" Collapsed="true">
+    <Position X="268.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgAgGAAEIAAIAIhEAEACABxVAJEIAAgAAAgAABIAAAY=</HashCode>
+      <FileName>Sftp\SftpFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.SftpFileAttributes" Collapsed="true">
+    <Position X="259.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgAgSCAMMAALgkjDAAACChhVAZAACQvAuAgAAB5gAhY=</HashCode>
+      <FileName>Sftp\SftpFileAttributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.SftpFileStream" Collapsed="true">
+    <Position X="261.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgBEgAGASwAAyGAAKAIRjAACCAEKoAAAAgIGIQiA=</HashCode>
+      <FileName>Sftp\SftpFileStream.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.SftpFileSytemInformation" Collapsed="true">
+    <Position X="263.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAIAAAAQAAAEAAAARAIgAEAAAAAAACKBAAA=</HashCode>
+      <FileName>Sftp\SftpFileSystemInformation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.SftpListDirectoryAsyncResult" Collapsed="true">
+    <Position X="28.75" Y="10.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\SftpListDirectoryAsyncResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.SftpMessage" Collapsed="true">
+    <Position X="101" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAgAAAQAIAEAAAAAAAQAAAAAAAAAAIAAAEAAAA=</HashCode>
+      <FileName>Sftp\SftpMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.SftpSession" Collapsed="true">
+    <Position X="5.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEgAAoARCgAAIBAwKBgAAGFACFJAFABAAQCUAYQQAA=</HashCode>
+      <FileName>Sftp\SftpSession.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.SftpSynchronizeDirectoriesAsyncResult" Collapsed="true">
+    <Position X="22.75" Y="10.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\SftpSynchronizeDirectoriesAsyncResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.SftpUploadAsyncResult" Collapsed="true">
+    <Position X="20" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Sftp\SftpUploadAsyncResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.SubsystemSession" Collapsed="true">
+    <Position X="6.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AESAgEAAAKAAIAAAAgAAAImCogAAABAhAAAAQgEAAAA=</HashCode>
+      <FileName>SubsystemSession.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SshNet.Sftp.Requests.FStatVfsRequest" Collapsed="true">
+    <Position X="108.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAQQAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\ExtendedRequests\FStatVfsRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Requests.HardLinkRequest" Collapsed="true">
+    <Position X="110.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAEABAQQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\ExtendedRequests\HardLinkRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Requests.PosixRenameRequest" Collapsed="true">
+    <Position X="113" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAEABAQQgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\ExtendedRequests\PosixRenameRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Requests.StatVfsRequest" Collapsed="true">
+    <Position X="115.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAIAAAAAAAQQgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\ExtendedRequests\StatVfsRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Requests.SftpBlockRequest" Collapsed="true">
+    <Position X="101.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAAAAAAAAABQAAAAAAIAACAAAAAAgAA=</HashCode>
+      <FileName>Sftp\Requests\SftpBlockRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Requests.SftpCloseRequest" Collapsed="true">
+    <Position X="106.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAAAAAAAAAAQAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpCloseRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Requests.SftpExtendedRequest" Collapsed="true">
+    <Position X="112" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAQQAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Sftp\Requests\SftpExtendedRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Requests.SftpFSetStatRequest" Collapsed="true">
+    <Position X="120" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAAAAAAAAAAQAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpFSetStatRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Requests.SftpFStatRequest" Collapsed="true">
+    <Position X="125" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAAAAAAAAAAQAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpFStatRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Requests.SftpInitRequest" Collapsed="true">
+    <Position X="139.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAgAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpInitRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Requests.SftpLinkRequest" Collapsed="true">
+    <Position X="132" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAAAAAAAAAQQAAAAAAAAIAAAAAAgAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpLinkRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Requests.SftpLStatRequest" Collapsed="true">
+    <Position X="77.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAIAAAAAAAAQgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpLStatRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Requests.SftpMkDirRequest" Collapsed="true">
+    <Position X="82.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAIAAAAAAAAQgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpMkDirRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Requests.SftpOpenDirRequest" Collapsed="true">
+    <Position X="84.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAIAAAAAAAAQgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpOpenDirRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Requests.SftpOpenRequest" Collapsed="true">
+    <Position X="87" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAgAAAQQAAAAAAAAAAQgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpOpenRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Requests.SftpReadDirRequest" Collapsed="true">
+    <Position X="89.25" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAAAAAAAAAAQAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpReadDirRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Requests.SftpReadLinkRequest" Collapsed="true">
+    <Position X="91.75" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAIAAAAAAAAQgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpReadLinkRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Requests.SftpReadRequest" Collapsed="true">
+    <Position X="94.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAAAAAAAAABQAAAAAAIAAAAAAAAAgAA=</HashCode>
+      <FileName>Sftp\Requests\SftpReadRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Requests.SftpRealPathRequest" Collapsed="true">
+    <Position X="96.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAIAAAAAAAAQgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpRealPathRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Requests.SftpRemoveRequest" Collapsed="true">
+    <Position X="99" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQQAAAAAAAAAAQgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpRemoveRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Requests.SftpRenameRequest" Collapsed="true">
+    <Position X="103.75" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAAAAAEABAAQgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpRenameRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Requests.SftpRequest" Collapsed="true">
+    <Position X="106" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAYUAAQAAAAQARACAAAAAAECAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Requests.SftpRmDirRequest" Collapsed="true">
+    <Position X="117.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAIAAAAAAAAQgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpRmDirRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Requests.SftpSetStatRequest" Collapsed="true">
+    <Position X="122.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAIAAAAAAAAQgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpSetStatRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Requests.SftpStatRequest" Collapsed="true">
+    <Position X="127.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAIAAAAAAAAQgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpStatRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Requests.SftpSymLinkRequest" Collapsed="true">
+    <Position X="129.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAAAAAAAAAQQgAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Sftp\Requests\SftpSymLinkRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Requests.SftpUnblockRequest" Collapsed="true">
+    <Position X="134.25" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAAAAAAAAABQAAAAAAIAAAAAAAAAgAA=</HashCode>
+      <FileName>Sftp\Requests\SftpUnblockRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Requests.SftpWriteRequest" Collapsed="true">
+    <Position X="80" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAAAAAAAAAAQAAAAABIAAAAAAAAAgAA=</HashCode>
+      <FileName>Sftp\Requests\SftpWriteRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Responses.ExtendedReplyInfo" Collapsed="true">
+    <Position X="23.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Responses\ExtendedReplies\ExtendedReplyInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Responses.StatVfsReplyInfo" Collapsed="true">
+    <Position X="23.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Responses\ExtendedReplies\StatVfsReplyInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Responses.SftpAttrsResponse" Collapsed="true">
+    <Position X="62.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Responses\SftpAttrsResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Responses.SftpDataResponse" Collapsed="true">
+    <Position X="65" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQIAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Responses\SftpDataResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Responses.SftpExtendedReplyResponse" Collapsed="true">
+    <Position X="67.25" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Responses\SftpExtendedReplyResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Responses.SftpHandleResponse" Collapsed="true">
+    <Position X="70.25" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Responses\SftpHandleResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Responses.SftpNameResponse" Collapsed="true">
+    <Position X="72.75" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAAAAAAAAAAQAgAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Sftp\Responses\SftpNameResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Responses.SftpResponse" Collapsed="true">
+    <Position X="69" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAQAEAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Sftp\Responses\SftpResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Responses.SftpStatusResponse" Collapsed="true">
+    <Position X="75.25" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAgCAAQAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Sftp\Responses\SftpStatusResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SshNet.Sftp.Responses.SftpVersionResponse" Collapsed="true">
+    <Position X="136.75" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAgAAAQAAAAAAAAAAAQAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Sftp\Responses\SftpVersionResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="SshNet.Common.BigInteger" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="259.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gJIihgYABVUQCBZV8IerKyFqAyqABJoCEglEQBnAJ6A=</HashCode>
+      <FileName>Common\BigInteger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="SshNet.Common.ObjectIdentifier" Collapsed="true">
+    <Position X="261.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Common\ObjectIdentifier.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="SshNet.Messages.Transport.IKeyExchangedAllowed" Collapsed="true">
+    <Position X="259.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Transport\IKeyExchangedAllowed.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="SshNet.AuthenticationResult" Collapsed="true">
+    <Position X="259.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>AuthenticationResult.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SshNet.ProxyTypes" Collapsed="true">
+    <Position X="261.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAABAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>ProxyTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SshNet.Channels.ChannelTypes" Collapsed="true">
+    <Position X="263.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAIAAAAAAAAMAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Channels\ChannelTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SshNet.Common.TerminalModes" Collapsed="true">
+    <Position X="268.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADAAUICIgSJCgAEABIBxwEgCCAALhOJEFAAABAAAcsY=</HashCode>
+      <FileName>Common\TerminalModes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SshNet.Compression.CompressionMode" Collapsed="true">
+    <Position X="265" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Compression\CompressionMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SshNet.Messages.Connection.ChannelOpenFailureReasons" Collapsed="true">
+    <Position X="261.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAABAAAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAA=</HashCode>
+      <FileName>Messages\Connection\ChannelOpenFailureReasons.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SshNet.Messages.Connection.GlobalRequestName" Collapsed="true">
+    <Position X="259.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\Connection\GlobalRequestName.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SshNet.Messages.ServiceName" Collapsed="true">
+    <Position X="263.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\ServiceName.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SshNet.Messages.Transport.DisconnectReason" Collapsed="true">
+    <Position X="266.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAwAgAGCAAAAEIAgQAAABAAAAAAAkAAAEAAAI=</HashCode>
+      <FileName>Messages\Transport\DisconnectReason.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SshNet.Sftp.Flags" Collapsed="true">
+    <Position X="268.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgEgAAAACQAAAAAAAAEAAAA=</HashCode>
+      <FileName>Sftp\Flags.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SshNet.Sftp.SftpMessageTypes" Collapsed="true">
+    <Position X="265" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IggMAAEEAACAIAgAAQAgBAQoAAAAEDIAQAICQAGAhAA=</HashCode>
+      <FileName>Sftp\SftpMessageTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SshNet.Sftp.StatusCodes" Collapsed="true">
+    <Position X="266.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAIAADAggBAgAEQAikEAAIEJIAAgAKCCBABAAAAKSI=</HashCode>
+      <FileName>Sftp\StatusCodes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
